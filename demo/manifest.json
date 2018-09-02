@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "demo",
+	"version":"1.0.0",
+	"description": "xhl chrome plugin demo",
+	"icons": {
+		"16":"img/icon.png",
+		"48":"img/icon.png",
+		"128":"img/icon.png"
+	},
+	"browser_action": {
+		"default_icon": "img/icon.png",
+		"default_title": "这是一个chrome插件demo",
+		"default_popup": "popup.html"
+	}
+}
